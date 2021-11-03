@@ -77,7 +77,7 @@ async function run() {
 
 
 app.get('/', (req, res) => {
-    res.send();
+    res.send('fdjsi');
 });
 
 app.listen(port, () => {
