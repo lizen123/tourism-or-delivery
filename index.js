@@ -77,7 +77,7 @@ async function run() {
 
 
 app.get('/', (req, res) => {
-    res.send('what can u do');
+    res.send('what can u do and anything else');
 });
 
 app.listen(port, () => {
