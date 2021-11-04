@@ -77,9 +77,9 @@ async function run() {
 
 
 app.get('/', (req, res) => {
-    res.send('fdjsi');
+    res.send('what can u do');
 });
 
 app.listen(port, () => {
-    console.log('server is running', port)
+    console.log('server is running 1', port)
 })
